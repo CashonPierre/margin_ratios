@@ -1,10 +1,8 @@
-from futu import *
-trd_ctx = OpenSecTradeContext(filter_trdmarket=TrdMarket.HK, host='127.0.0.1', port=11111, security_firm=SecurityFirm.FUTUSECURITIES)
-ret, data = trd_ctx.get_margin_ratio(code_list=['US.AAPL','HK.09988'])  
-if ret == RET_OK:
-    print(data)
-    print(data['is_long_permit'][0])  # 取第一条的是否允许融资
-    print(data['im_short_ratio'].values.tolist())  # 转为 list
-else:
-    print('error:', data)
-trd_ctx.close()  # 结束后记得关闭当条连接，防止连接条数用尽
+from tigeropen.quote.quote_client import QuoteClient
+from tigeropen.tiger_open_config import TigerOpenClientConfig
+client_config = TigerOpenClientConfig(props_path='/path/to/your/properties/file/')
+
+quote_client = QuoteClient(client_config)
+
+symbol_names = quote_client.get_symbol_names(market=Market.ALL)
+print(symbol_names)

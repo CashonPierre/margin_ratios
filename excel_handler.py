@@ -1,6 +1,8 @@
 import pandas as pd
 import requests
 import time
+from futu import *
+
 
 # ----------------------------- CONFIGURATION -----------------------------
 # Change these to match your needs
@@ -32,6 +34,7 @@ API_PARAMS = {
     'market': 'US'
 }
 
+BREAK_FUTU = 3
 REQUEST_DELAY = 0.2
 # ------------------------------------------------------------------------
 
@@ -49,16 +52,57 @@ print(f"Found {len(item_list)} items in the first column:\n{item_list}\n")
 
 def process_for_sheet2(item):
     """
-    Example function: replace with your real logic.
+    calling futu api.
     Returns a dictionary or list with results for Sheet2.
     """
-    # Example: some calculation
-    result = {
-        'Original': item,
-        'Uppercase': str(item).upper(),
-        'Length': len(str(item))
-    }
-    return result
+    symbol = item.strip().upper()
+    try:
+        trd_ctx = OpenSecTradeContext(filter_trdmarket=TrdMarket.US, host='127.0.0.1', port=11111, security_firm=SecurityFirm.FUTUSECURITIES)
+        ret, data = trd_ctx.get_margin_ratio(code_list=["US." + item])  
+        if ret == RET_OK:
+            return {
+                'Symbol': symbol,
+                'is_long_permit': data['is_long_permit'][0],
+                'is_short_permit': data['is_short_permit'][0],
+                'short_pool_remain': data['short_pool_remain'][0],
+                'short_fee_rate': data['short_fee_rate'][0],
+                'alert_long_ratio': data['alert_long_ratio'][0],
+                'alert_short_ratio': data['alert_short_ratio'][0],
+                'im_long_ratio': data['im_long_ratio'][0],
+                'im_short_ratio': data['im_short_ratio'][0],
+                'mcm_long_ratio': data['mcm_long_ratio'][0],
+                'mcm_short_ratio': data['mcm_short_ratio'][0],
+                'mm_long_ratio': data['mm_long_ratio'][0],
+                'mm_short_ratio': data['mm_short_ratio'][0],
+                'Error': None
+            }
+
+        else:
+            print('error:', data)
+            return {
+                'Symbol': symbol,
+                'longInitialMargin': None,
+                'longMaintenanceMargin': None,
+                'shortInitialMargin': None,
+                'shortMaintenanceMargin': None,
+                'Error': data or 'No data'
+            }
+    except Exception as e:
+        print(f"Futu API call failed for {symbol}: {e}")
+        return {
+            'Symbol': symbol,
+            'longInitialMargin': None,
+            'longMaintenanceMargin': None,
+            'shortInitialMargin': None,
+            'shortMaintenanceMargin': None,
+            'Error': str(e)
+        }
+    finally:
+        trd_ctx.close()  # 结束后记得关闭当条连接，防止连接条数用尽
+        # Be polite to the server
+        time.sleep(BREAK_FUTU)
+    
+    
 
 def process_for_sheet3(item):
     """
@@ -144,6 +188,7 @@ for item in item_list:
         # Optionally append error info
         results_sheet2.append({'Error': str(e)})
         results_sheet3.append({'Error': str(e)})
+    # break #testing only one item
 
 # Convert to DataFrames
 df_sheet2 = pd.DataFrame(results_sheet2)
@@ -154,7 +199,7 @@ print(f"Writing results to '{OUTPUT_FILE}'...")
 
 with pd.ExcelWriter(OUTPUT_FILE, engine='openpyxl') as writer:
     # Optionally write the original first sheet back
-    df_sheet1.to_excel(writer, sheet_name='Original_Sheet1', index=False)
+    df_sheet1.to_excel(writer, sheet_name='input', index=False)
     
     # Write the new sheets
     df_sheet2.to_excel(writer, sheet_name=SHEET2_NAME, index=False)
