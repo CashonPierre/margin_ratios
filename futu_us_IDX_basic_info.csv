@@ -1,0 +1,512 @@
+﻿code,name,lot_size,stock_type,stock_child_type,stock_owner,option_type,strike_time,strike_price,suspension,listing_date,stock_id,delisting,index_option_type,main_contract,last_trade_time,exchange_type
+US..BFLY,Cboe S&P 500 Iron Butterfly Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045487,False,N/A,False,,US_NYSE
+US..BKX,KBW Nasdaq Bank Index,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,79323751208280,False,N/A,False,,US_NASDAQ
+US..BPVIX,Cboe/CME FX British Pound Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045488,False,N/A,False,,US_NYSE
+US..BSZ,SPX Binary Underlying,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045489,False,N/A,False,,US_NYSE
+US..BVZ,VIX Binary Underlying,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045490,False,N/A,False,,US_NYSE
+US..BXD,DJIA Buy Write,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045491,False,N/A,False,,US_NYSE
+US..BXEA,Cboe MSCI EAFE BuyWrite Index (on CSMI Main & MSCI channel),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045492,False,N/A,False,,US_NYSE
+US..BXEF,Cboe MSCI Emerging Markets BuyWrite Index (on CSMI Main & MSCI channel),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045493,False,N/A,False,,US_NYSE
+US..BXM,Buy Write Monthly,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045494,False,N/A,False,,US_NYSE
+US..BXMC,Cboe S&P 500 Conditional BuyWrite Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045495,False,N/A,False,,US_NYSE
+US..BXMD,Cboe S&P 500 30-Delta BuyWrite Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045496,False,N/A,False,,US_NYSE
+US..BXMW,Cboe S&P 500 Multi-Week BuyWrite Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045497,False,N/A,False,,US_NYSE
+US..BXO,Reduced Value BXM,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045500,False,N/A,False,,US_NYSE
+US..BXR,Cboe Russell 2000 Buy Write,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045501,False,N/A,False,,US_NYSE
+US..BXRVT,Cboe Russell 2000 BuyWrite V2 Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045505,False,N/A,False,,US_NYSE
+US..BXY,Cboe S&P 500 Buy Write 2% OTM,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045506,False,N/A,False,,US_NYSE
+US..BYB,Morgan Stanley 8% Targeted Income STARS Cboe S&P 500 BuyWrite Index Nev,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045507,False,N/A,False,,US_NYSE
+US..BYC,Morgan Stanley 0% STARS Cboe S&P 500 BuyWrite Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045508,False,N/A,False,,US_NYSE
+US..CBTX,Cboe Bitcoin U.S. ETF Index,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,86135569367209,False,N/A,False,,N/A
+US..CBTXS,CBTX Settlement Index,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,86135569367211,False,N/A,False,,US_NYSE
+US..CELS,NASDAQ Clean Edge Green Energy,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,81561429177086,False,N/A,False,,US_NASDAQ
+US..CEX,Standard & Poor's Chemicals Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045806,False,N/A,False,,US_NYSE
+US..CEXX,NASDAQ Clean Edge Green Energy Total Return,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,81561429177087,False,N/A,False,,US_NASDAQ
+US..CLL,Cboe Collar 95-110 Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045509,False,N/A,False,,US_NYSE
+US..CLLZ,Cboe S&P 500 Zero-Cost Put Spread Collar Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045510,False,N/A,False,,US_NYSE
+US..CMBO,Cboe S&P 500 Covered Combo Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045511,False,N/A,False,,US_NYSE
+US..CNDR,Cboe S&P 500 Iron Condor Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045512,False,N/A,False,,US_NYSE
+US..CXU,U.S.-Europe-Japan Basket,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045513,False,N/A,False,,US_NYSE
+US..DDA,Cboe Jumbo DJ Volatility Ask,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045514,False,N/A,False,,US_NYSE
+US..DDB,Cboe Jumbo DJ Volatility Bid,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045515,False,N/A,False,,US_NYSE
+US..DDLEV,Dynamic Daily Long Exposure to Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045801,False,N/A,False,,US_NYSE
+US..DDSEV,Dynamic Daily Short Exposure to Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045802,False,N/A,False,,US_NYSE
+US..DEY,Morgan Stanley STARS Dow Jones BuyWrite Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045516,False,N/A,False,,US_NYSE
+US..DIB,Morgan Stanley Targeted Income STARS Dow Jones BuyWrite Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045517,False,N/A,False,,US_NYSE
+US..DJI,Dow Jones Industrial Average,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,200001,False,N/A,False,,N/A
+US..DJR,Dow Jones Equity REIT Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045807,False,N/A,False,,US_NYSE
+US..DJS,DJIA 1/100th Settlement Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045518,False,N/A,False,,US_NYSE
+US..DJT,Dow Jones Transportation Average,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213278,False,N/A,False,,N/A
+US..DJU,Dow Jones Utility Average,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213279,False,N/A,False,,N/A
+US..DJUS,Dow Jones U.S. Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213280,False,N/A,False,,N/A
+US..DJUSAE,Dow Jones U.S. Aerospace & Defense Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213281,False,N/A,False,,N/A
+US..DJUSAF,Dow Jones U.S. Delivery Services Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213282,False,N/A,False,,N/A
+US..DJUSAG,Dow Jones U.S. Asset Managers Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213283,False,N/A,False,,N/A
+US..DJUSAI,Dow Jones U.S. Electronic Equipment Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213284,False,N/A,False,,N/A
+US..DJUSAL,Dow Jones U.S. Aluminum Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213285,False,N/A,False,,N/A
+US..DJUSAM,Dow Jones U.S. Medical Equipment Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213286,False,N/A,False,,N/A
+US..DJUSAP,Dow Jones U.S. Automobiles & Parts Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213287,False,N/A,False,,N/A
+US..DJUSAR,Dow Jones U.S. Airlines Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213288,False,N/A,False,,N/A
+US..DJUSAS,Dow Jones U.S. Aerospace Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213289,False,N/A,False,,N/A
+US..DJUSAT,Dow Jones U.S. Auto Parts Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213290,False,N/A,False,,N/A
+US..DJUSAU,Dow Jones U.S. Automobiles Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213291,False,N/A,False,,N/A
+US..DJUSAV,Dow Jones U.S. Media Agencies Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213292,False,N/A,False,,N/A
+US..DJUSBC,Dow Jones U.S. Broadcasting & Entertainment Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213293,False,N/A,False,,N/A
+US..DJUSBD,Dow Jones U.S. Building Materials & Fixtures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213294,False,N/A,False,,N/A
+US..DJUSBE,Dow Jones U.S. Business Training & Employment Agencies Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213295,False,N/A,False,,N/A
+US..DJUSBK,Dow Jones U.S. Banks Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213296,False,N/A,False,,N/A
+US..DJUSBM,Dow Jones U.S. Basic Materials Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213297,False,N/A,False,,N/A
+US..DJUSBS,Dow Jones U.S. Basic Resources Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213298,False,N/A,False,,N/A
+US..DJUSBT,Dow Jones U.S. Biotechnology Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213299,False,N/A,False,,N/A
+US..DJUSBV,Dow Jones U.S. Beverages Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213300,False,N/A,False,,N/A
+US..DJUSCA,Dow Jones U.S. Gambling Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213301,False,N/A,False,,N/A
+US..DJUSCC,Dow Jones U.S. Commodity Chemicals Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213302,False,N/A,False,,N/A
+US..DJUSCF,Dow Jones U.S. Clothing & Accessories Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213303,False,N/A,False,,N/A
+US..DJUSCG,Dow Jones U.S. Travel & Leisure Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213304,False,N/A,False,,N/A
+US..DJUSCH,Dow Jones U.S. Chemicals Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213305,False,N/A,False,,N/A
+US..DJUSCL,Dow Jones U.S. Coal Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213306,False,N/A,False,,N/A
+US..DJUSCM,Dow Jones U.S. Personal Products Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213307,False,N/A,False,,N/A
+US..DJUSCN,Dow Jones U.S. Construction & Materials Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213308,False,N/A,False,,N/A
+US..DJUSCP,Dow Jones U.S. Containers & Packaging Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213309,False,N/A,False,,N/A
+US..DJUSCR,Dow Jones U.S. Computer Hardware Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213310,False,N/A,False,,N/A
+US..DJUSCS,Dow Jones U.S. Specialized Consumer Services Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213311,False,N/A,False,,N/A
+US..DJUSCT,Dow Jones U.S. Telecommunications Equipment Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213312,False,N/A,False,,N/A
+US..DJUSCX,Dow Jones U.S. Specialty Chemicals Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213313,False,N/A,False,,N/A
+US..DJUSCY,Dow Jones U.S. Consumer Services Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213314,False,N/A,False,,N/A
+US..DJUSDB,Dow Jones U.S. Brewers Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213315,False,N/A,False,,N/A
+US..DJUSDN,Dow Jones U.S. Defense Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213316,False,N/A,False,,N/A
+US..DJUSDR,Dow Jones U.S. Food & Drug Retailers Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213317,False,N/A,False,,N/A
+US..DJUSDS,Dow Jones U.S. Industrial Suppliers Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213318,False,N/A,False,,N/A
+US..DJUSDT,Dow Jones U.S. Diversified REITs Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213319,False,N/A,False,,N/A
+US..DJUSDV,Dow Jones U.S. Computer Services Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213320,False,N/A,False,,N/A
+US..DJUSEC,Dow Jones U.S. Electrical Components & Equipment Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213321,False,N/A,False,,N/A
+US..DJUSEE,Dow Jones U.S. Electronic & Electrical Equipment Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213322,False,N/A,False,,N/A
+US..DJUSEH,Dow Jones U.S. Real Estate Holding & Development Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213323,False,N/A,False,,N/A
+US..DJUSEN,Dow Jones U.S. Oil & Gas Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213324,False,N/A,False,,N/A
+US..DJUSES,Dow Jones U.S. Real Estate Services Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213325,False,N/A,False,,N/A
+US..DJUSEU,Dow Jones U.S. Electricity Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213326,False,N/A,False,,N/A
+US..DJUSFA,Dow Jones U.S. Financial Administration Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213327,False,N/A,False,,N/A
+US..DJUSFB,Dow Jones U.S. Food & Beverage Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213328,False,N/A,False,,N/A
+US..DJUSFC,Dow Jones U.S. Fixed Line Telecommunications Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213329,False,N/A,False,,N/A
+US..DJUSFD,Dow Jones U.S. Food Retailers & Wholesalers Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213330,False,N/A,False,,N/A
+US..DJUSFE,Dow Jones U.S. Industrial Machinery Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213331,False,N/A,False,,N/A
+US..DJUSFH,Dow Jones U.S. Furnishings Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213332,False,N/A,False,,N/A
+US..DJUSFI,Dow Jones U.S. Financial Services Supersector Index (USD),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213333,False,N/A,False,,N/A
+US..DJUSFN,Dow Jones U.S. Financials Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213334,False,N/A,False,,N/A
+US..DJUSFO,Dow Jones U.S. Food Producers Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213335,False,N/A,False,,N/A
+US..DJUSFP,Dow Jones U.S. Food Products Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213336,False,N/A,False,,N/A
+US..DJUSFR,Dow Jones U.S. Forestry & Paper Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213337,False,N/A,False,,N/A
+US..DJUSFT,Dow Jones U.S. Footwear Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213338,False,N/A,False,,N/A
+US..DJUSFV,Dow Jones U.S. Financial Services Index (USD),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213339,False,N/A,False,,N/A
+US..DJUSGF,Dow Jones U.S. Financial Services Sector Index (USD),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213340,False,N/A,False,,N/A
+US..DJUSGI,Dow Jones U.S. General Industrials Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213341,False,N/A,False,,N/A
+US..DJUSGL,Dow Jones U.S. Large-Cap Growth Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213342,False,N/A,False,,N/A
+US..DJUSGM,Dow Jones U.S. Mid-Cap Growth Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213343,False,N/A,False,,N/A
+US..DJUSGR,Dow Jones U.S. Growth Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213344,False,N/A,False,,N/A
+US..DJUSGS,Dow Jones U.S. Small-Cap Growth Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213345,False,N/A,False,,N/A
+US..DJUSGT,Dow Jones U.S. General Retailers Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213346,False,N/A,False,,N/A
+US..DJUSGU,Dow Jones U.S. Gas Distribution Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213347,False,N/A,False,,N/A
+US..DJUSHB,Dow Jones U.S. Home Construction Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213348,False,N/A,False,,N/A
+US..DJUSHC,Dow Jones U.S. Health Care Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213349,False,N/A,False,,N/A
+US..DJUSHD,Dow Jones U.S. Durable Household Products Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213350,False,N/A,False,,N/A
+US..DJUSHG,Dow Jones U.S. Household Goods & Home Construction Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213351,False,N/A,False,,N/A
+US..DJUSHI,Dow Jones U.S. Home Improvement Retailers Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213352,False,N/A,False,,N/A
+US..DJUSHL,Dow Jones U.S. Hotel & Lodging REITs Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213353,False,N/A,False,,N/A
+US..DJUSHN,Dow Jones U.S. Nondurable Household Products Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213354,False,N/A,False,,N/A
+US..DJUSHP,Dow Jones U.S. Health Care Providers Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213355,False,N/A,False,,N/A
+US..DJUSHR,Dow Jones U.S. Commercial Vehicles & Trucks Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213356,False,N/A,False,,N/A
+US..DJUSHV,Dow Jones U.S. Heavy Construction Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213357,False,N/A,False,,N/A
+US..DJUSIB,Dow Jones U.S. Insurance Brokers Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213358,False,N/A,False,,N/A
+US..DJUSID,Dow Jones U.S. Diversified Industrials Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213359,False,N/A,False,,N/A
+US..DJUSIF,Dow Jones U.S. Full Line Insurance Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213360,False,N/A,False,,N/A
+US..DJUSIG,Dow Jones U.S. Industrial Goods & Services Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213361,False,N/A,False,,N/A
+US..DJUSIL,Dow Jones U.S. Life Insurance Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213362,False,N/A,False,,N/A
+US..DJUSIM,Dow Jones U.S. Industrial Metals & Mining Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213363,False,N/A,False,,N/A
+US..DJUSIN,Dow Jones U.S. Industrials Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213364,False,N/A,False,,N/A
+US..DJUSIO,Dow Jones U.S. Industrial & Office REITs Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213365,False,N/A,False,,N/A
+US..DJUSIP,Dow Jones U.S. Property & Casualty Insurance Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213366,False,N/A,False,,N/A
+US..DJUSIQ,Dow Jones U.S. Industrial Engineering Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213367,False,N/A,False,,N/A
+US..DJUSIR,Dow Jones U.S. Insurance Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213368,False,N/A,False,,N/A
+US..DJUSIS,Dow Jones U.S. Support Services Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213369,False,N/A,False,,N/A
+US..DJUSIT,Dow Jones U.S. Industrial Transportation Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213370,False,N/A,False,,N/A
+US..DJUSIU,Dow Jones U.S. Reinsurance Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213371,False,N/A,False,,N/A
+US..DJUSIV,Dow Jones U.S. Business Support Services Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213372,False,N/A,False,,N/A
+US..DJUSIX,Dow Jones U.S. Nonlife Insurance Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213373,False,N/A,False,,N/A
+US..DJUSL,Dow Jones U.S. Large-Cap Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213374,False,N/A,False,,N/A
+US..DJUSLE,Dow Jones U.S. Leisure Goods Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213375,False,N/A,False,,N/A
+US..DJUSLG,Dow Jones U.S. Hotels Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213376,False,N/A,False,,N/A
+US..DJUSLW,Dow Jones U.S. Low-Cap Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213378,False,N/A,False,,N/A
+US..DJUSM,Dow Jones U.S. Mid-Cap Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213379,False,N/A,False,,N/A
+US..DJUSMC,Dow Jones U.S. Health Care Equipment & Services Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213380,False,N/A,False,,N/A
+US..DJUSME,Dow Jones U.S. Media Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213381,False,N/A,False,,N/A
+US..DJUSMF,Dow Jones U.S. Mortgage Finance Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213382,False,N/A,False,,N/A
+US..DJUSMG,Dow Jones U.S. Mining Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213383,False,N/A,False,,N/A
+US..DJUSMR,Dow Jones U.S. Mortgage REITs Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213384,False,N/A,False,,N/A
+US..DJUSMS,Dow Jones U.S. Medical Supplies Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213385,False,N/A,False,,N/A
+US..DJUSMT,Dow Jones U.S. Marine Transportation Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213386,False,N/A,False,,N/A
+US..DJUSMU,Dow Jones U.S. Multiutilities Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213387,False,N/A,False,,N/A
+US..DJUSNC,Dow Jones U.S. Consumer Goods Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213388,False,N/A,False,,N/A
+US..DJUSNF,Dow Jones U.S. Nonferrous Metals Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213389,False,N/A,False,,N/A
+US..DJUSNG,Dow Jones U.S. Personal & Household Goods Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213390,False,N/A,False,,N/A
+US..DJUSNS,Dow Jones U.S. Internet Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213391,False,N/A,False,,N/A
+US..DJUSOE,Dow Jones U.S. Electronic Office Equipment Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213392,False,N/A,False,,N/A
+US..DJUSOG,Dow Jones U.S. Oil & Gas Producers Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213393,False,N/A,False,,N/A
+US..DJUSOI,Dow Jones U.S. Oil Equipment & Services Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213394,False,N/A,False,,N/A
+US..DJUSOL,Dow Jones U.S. Integrated Oil & Gas Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213395,False,N/A,False,,N/A
+US..DJUSOQ,Dow Jones U.S. Oil Equipment Services & Distribution Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213396,False,N/A,False,,N/A
+US..DJUSOS,Dow Jones U.S. Exploration & Production Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213397,False,N/A,False,,N/A
+US..DJUSPB,Dow Jones U.S. Publishing Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213398,False,N/A,False,,N/A
+US..DJUSPC,Dow Jones U.S. Waste & Disposal Services Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213399,False,N/A,False,,N/A
+US..DJUSPG,Dow Jones U.S. Personal Goods Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213400,False,N/A,False,,N/A
+US..DJUSPL,Dow Jones U.S. Pipelines Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213401,False,N/A,False,,N/A
+US..DJUSPM,Dow Jones U.S. Gold Mining Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213402,False,N/A,False,,N/A
+US..DJUSPN,Dow Jones U.S. Pharmaceuticals & Biotechnology Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213403,False,N/A,False,,N/A
+US..DJUSPP,Dow Jones U.S. Paper Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213404,False,N/A,False,,N/A
+US..DJUSPR,Dow Jones U.S. Pharmaceuticals Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213405,False,N/A,False,,N/A
+US..DJUSRA,Dow Jones U.S. Apparel Retailers Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213407,False,N/A,False,,N/A
+US..DJUSRB,Dow Jones U.S. Broadline Retailers Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213408,False,N/A,False,,N/A
+US..DJUSRD,Dow Jones U.S. Drug Retailers Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213409,False,N/A,False,,N/A
+US..DJUSRE,Dow Jones U.S. Real Estate Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213410,False,N/A,False,,N/A
+US..DJUSRH,Dow Jones U.S. Real Estate Investment & Services Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213411,False,N/A,False,,N/A
+US..DJUSRI,Dow Jones U.S. Real Estate Investment Trusts Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213412,False,N/A,False,,N/A
+US..DJUSRL,Dow Jones U.S. Retail REITs Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213413,False,N/A,False,,N/A
+US..DJUSRN,Dow Jones U.S. Residential REITs Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213414,False,N/A,False,,N/A
+US..DJUSRP,Dow Jones U.S. Recreational Products Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213415,False,N/A,False,,N/A
+US..DJUSRQ,Dow Jones U.S. Recreational Services Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213416,False,N/A,False,,N/A
+US..DJUSRR,Dow Jones U.S. Railroads Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213417,False,N/A,False,,N/A
+US..DJUSRS,Dow Jones U.S. Specialty Retailers Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213418,False,N/A,False,,N/A
+US..DJUSRT,Dow Jones U.S. Retail Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213419,False,N/A,False,,N/A
+US..DJUSRU,Dow Jones U.S. Restaurants & Bars Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213420,False,N/A,False,,N/A
+US..DJUSS,Dow Jones U.S. Small-Cap Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213421,False,N/A,False,,N/A
+US..DJUSSB,Dow Jones U.S. Investment Services Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213422,False,N/A,False,,N/A
+US..DJUSSC,Dow Jones U.S. Semiconductors Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213423,False,N/A,False,,N/A
+US..DJUSSD,Dow Jones U.S. Soft Drinks Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213424,False,N/A,False,,N/A
+US..DJUSSF,Dow Jones U.S. Consumer Finance Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213425,False,N/A,False,,N/A
+US..DJUSSP,Dow Jones U.S. Specialty Finance Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213426,False,N/A,False,,N/A
+US..DJUSSR,Dow Jones U.S. Specialty REITs Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213427,False,N/A,False,,N/A
+US..DJUSST,Dow Jones U.S. Iron & Steel Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213428,False,N/A,False,,N/A
+US..DJUSSV,Dow Jones U.S. Software & Computer Services Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213429,False,N/A,False,,N/A
+US..DJUSSW,Dow Jones U.S. Software Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213430,False,N/A,False,,N/A
+US..DJUSTB,Dow Jones U.S. Tobacco Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213431,False,N/A,False,,N/A
+US..DJUSTC,Dow Jones U.S. Technology Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213432,False,N/A,False,,N/A
+US..DJUSTK,Dow Jones U.S. Trucking Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213433,False,N/A,False,,N/A
+US..DJUSTL,Dow Jones U.S. Telecommunications Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213434,False,N/A,False,,N/A
+US..DJUSTP,Dow Jones U.S. Top-Cap Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213435,False,N/A,False,,N/A
+US..DJUSTQ,Dow Jones U.S. Technology Hardware & Equipment Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213436,False,N/A,False,,N/A
+US..DJUSTR,Dow Jones U.S. Tires Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213437,False,N/A,False,,N/A
+US..DJUSTS,Dow Jones U.S. Transportation Services Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213438,False,N/A,False,,N/A
+US..DJUSTT,Dow Jones U.S. Travel & Tourism Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213439,False,N/A,False,,N/A
+US..DJUSTY,Dow Jones U.S. Toys Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213440,False,N/A,False,,N/A
+US..DJUSUO,Dow Jones U.S. Gas Water & Multiutilities Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213441,False,N/A,False,,N/A
+US..DJUSUT,Dow Jones U.S. Utilities Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213442,False,N/A,False,,N/A
+US..DJUSVA,Dow Jones U.S. Value Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213443,False,N/A,False,,N/A
+US..DJUSVE,Dow Jones U.S. Conventional Electricity Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213444,False,N/A,False,,N/A
+US..DJUSVL,Dow Jones U.S. Large-Cap Value Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213445,False,N/A,False,,N/A
+US..DJUSVM,Dow Jones U.S. Mid-Cap Value Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213446,False,N/A,False,,N/A
+US..DJUSVN,Dow Jones U.S. Distillers & Vintners Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213447,False,N/A,False,,N/A
+US..DJUSVS,Dow Jones U.S. Small-Cap Value Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213448,False,N/A,False,,N/A
+US..DJUSWC,Dow Jones U.S. Mobile Telecommunications Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213449,False,N/A,False,,N/A
+US..DJUSWU,Dow Jones U.S. Water Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213450,False,N/A,False,,N/A
+US..DJX,DJIA 1/100th,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045808,False,N/A,False,,US_NYSE
+US..DLVIX,Dynamic Long VIX Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045803,False,N/A,False,,US_NYSE
+US..DSVIER,Dynamic Short VIX FUtures Index-Excess Return,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045804,False,N/A,False,,US_NYSE
+US..DSVIX,Dynamic Short VIX Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045805,False,N/A,False,,US_NYSE
+US..DTX,DJTA 1/10th,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045809,False,N/A,False,,US_NYSE
+US..DUX,DJUA,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045810,False,N/A,False,,US_NYSE
+US..DVS,S&P 500 Dividend Index-10X,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045811,False,N/A,False,,US_NYSE
+US..DXL,DJIA 1/10th,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045519,False,N/A,False,,US_NYSE
+US..ECM,Dow Jones Internet Commerce,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045812,False,N/A,False,,US_NYSE
+US..EFS,MXEF Option Settlement Value (on CSMI & MSCI channel),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045521,False,N/A,False,,US_NYSE
+US..ETT,Morgan Stanley STARS S&P 500 BuyWrite Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045522,False,N/A,False,,US_NYSE
+US..ETZ,Morgan Stanley Targeted Income STARS S&P 500 BuyWrite Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045523,False,N/A,False,,US_NYSE
+US..EUVIX,Cboe/CME FX Euro Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045524,False,N/A,False,,US_NYSE
+US..GVX,Cboe/COMEX Gold Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045527,False,N/A,False,,US_NYSE
+US..HCIADR,HSCEI ADR,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,215298,False,N/A,False,,US_NYSE
+US..HSIADR,HSI ADR,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,215297,False,N/A,False,,US_NYSE
+US..HXC,NASDAQ Golden Dragon China,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,81561429177084,False,N/A,False,,US_NASDAQ
+US..HXCNTR,NASDAQ Golden Dragon China Net Total Return Index,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,81561429177085,False,N/A,False,,US_NASDAQ
+US..IBHY,iBoxx iShares USD High Yield Corporate Bond Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045529,False,N/A,False,,US_NYSE
+US..IBIG,iBoxx iShares USD Investment Grade Corporate Bond Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045530,False,N/A,False,,US_NYSE
+US..ICJ,Cboe S&P 500 Correlation Index Jan 2015,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045531,False,N/A,False,,US_NYSE
+US..IXIC,Nasdaq Composite Index,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,200002,False,N/A,False,,US_NASDAQ
+US..JYVIX,Cboe/CME FX Yen Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045534,False,N/A,False,,US_NYSE
+US..KCJ,Cboe S&P 500 Correlation Index Jan 2017,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045535,False,N/A,False,,US_NYSE
+US..LOVOL,Cboe Low Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045536,False,N/A,False,,US_NYSE
+US..MBTX,Cboe Mini Bitcoin U.S. ETF Index,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,86135569367210,False,N/A,False,,N/A
+US..MBTXS,MBTX Settlement Index,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,86135569367212,False,N/A,False,,US_NYSE
+US..MHDP,Miller Howard Strategic Dividend Index Price Return,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045795,False,N/A,False,,US_NYSE
+US..MHDT,Miller Howard Strategic Dividend Index Total Return,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045796,False,N/A,False,,US_NYSE
+US..MLPMH,Miller Howard MLP Fundamental Index Total Return,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045797,False,N/A,False,,US_NYSE
+US..MLPMP,Miller Howard MLP Fundamental Index Price Return,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045798,False,N/A,False,,US_NYSE
+US..MNX,Cboe Mini-NDX,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045537,False,N/A,False,,US_NYSE
+US..MSQ,Morgan Stanley Variance 3x6 US Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045538,False,N/A,False,,US_NYSE
+US..MSV,Cboe Morgan Stanley U.S. Portfolio Intrinsic Value Basket,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045539,False,N/A,False,,US_NYSE
+US..MSX,Morgan Stanley Style Select Japan Index Net Entitlement Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045540,False,N/A,False,,US_NYSE
+US..MXEA,MSCI EAFE Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045799,False,N/A,False,,US_NYSE
+US..MXS,MXEA Option Settlement Value (on CSMI & MSCI channel),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045541,False,N/A,False,,US_NYSE
+US..NBI,NASDAQ Biotechnology,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,87724707271479,False,N/A,False,,US_NASDAQ
+US..NDX,NASDAQ 100 Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213270,False,N/A,False,,N/A
+US..NHT,Morgan Stanley STARS (NBXZ) Cboe Nasdaq-100 BuyWrite Index Nev,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045542,False,N/A,False,,US_NYSE
+US..OET,S&P 100 Settlement,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045543,False,N/A,False,,US_NYSE
+US..OEX,Standard & Poor's 100,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045813,False,N/A,False,,US_NYSE
+US..OIV,Cboe/NYMEX WTI Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045544,False,N/A,False,,US_NYSE
+US..OSX,PHLX Oil Service Sector Index,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,79323751208282,False,N/A,False,,US_NASDAQ
+US..PCJ,Citigroup BXM Pistons Net Investment Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045546,False,N/A,False,,US_NYSE
+US..PPUT,Cboe S&P 500 5% Put Protection Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045547,False,N/A,False,,US_NYSE
+US..PUT,Cboe PutWrite Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045548,False,N/A,False,,US_NYSE
+US..PUTY,Cboe S&P 500 2% OTM PutWrite Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045549,False,N/A,False,,US_NYSE
+US..PWT,Cboe S&P 500 PutWrite T-W Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045550,False,N/A,False,,US_NYSE
+US..PXEA,Cboe MSCI EAFE PutWrite Index (on CSMI Main & MSCI channel),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045551,False,N/A,False,,US_NYSE
+US..PXEF,Cboe MSCI Emerging Markets PutWrite Index (on CSMI Main & MSCI channel),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045552,False,N/A,False,,US_NYSE
+US..RLS,Russell 2000 Settlement Value,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,84073985050918,False,N/A,False,,US_NYSE
+US..RUT,Russell 2000 Index,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,84091164920137,False,N/A,False,,US_NYSE
+US..RXM,Cboe S&P 500 Risk Reversal Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045554,False,N/A,False,,US_NYSE
+US..SET,S&P 500 Settlement Value,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045555,False,N/A,False,,US_NYSE
+US..SISB,Materials Select Sector Index Settlement Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045814,False,N/A,False,,US_NYSE
+US..SISC,Communication Services Select Sector Index Settlement Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045815,False,N/A,False,,US_NYSE
+US..SISE,Energy Select Sector Index Settlement Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045816,False,N/A,False,,US_NYSE
+US..SISIN,Industrials Select Sector Index Settlement Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045817,False,N/A,False,,US_NYSE
+US..SISM,Financial Select Sector Index Settlement Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045818,False,N/A,False,,US_NYSE
+US..SISR,Consumer Staples Select Sector Index Settlement Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045819,False,N/A,False,,US_NYSE
+US..SISRE,Real Estate Select Sector Index Settlement Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045820,False,N/A,False,,US_NYSE
+US..SIST,Technology Select Sector Index Settlement Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045821,False,N/A,False,,US_NYSE
+US..SISUT,Utilities Select Sector Index Settlement Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045822,False,N/A,False,,US_NYSE
+US..SISV,Health Select Sector Index Settlement Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045823,False,N/A,False,,US_NYSE
+US..SISY,Consumer Discretionary Select Sector Index Settlement Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045824,False,N/A,False,,US_NYSE
+US..SIXB,Materials Select Sector Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045825,False,N/A,False,,US_NYSE
+US..SIXC,Communication Services Select Sector Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045826,False,N/A,False,,US_NYSE
+US..SIXE,Energy Select Sector Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045827,False,N/A,False,,US_NYSE
+US..SIXI,Industrials Select Sector Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045828,False,N/A,False,,US_NYSE
+US..SIXM,Financial Select Sector Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045829,False,N/A,False,,US_NYSE
+US..SIXR,Consumer Staples Select Sector Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045830,False,N/A,False,,US_NYSE
+US..SIXRE,Real Estate Select Sector Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045831,False,N/A,False,,US_NYSE
+US..SIXT,Technology Select Sector Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045832,False,N/A,False,,US_NYSE
+US..SIXU,Utilities Select Sector Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045833,False,N/A,False,,US_NYSE
+US..SIXV,Health Select Sector Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045834,False,N/A,False,,US_NYSE
+US..SIXY,Consumer Discretionary Select Sector Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045835,False,N/A,False,,US_NYSE
+US..SKEW,Cboe SKEW Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045556,False,N/A,False,,US_NYSE
+US..SMILE,S&P 500 Smile Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045557,False,N/A,False,,US_NYSE
+US..SMLCW,Cboe-SMA Weekly Large Cap Long Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045558,False,N/A,False,,US_NYSE
+US..SOX,PHLX Semiconductor Index,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,79323751208283,False,N/A,False,,US_NASDAQ
+US..SP10R90P,S&P 500 10% Daily Risk Control 90% Put Protection Index (NTR),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045559,False,N/A,False,,US_NYSE
+US..SP10R95P,S&P 500 10% Daily Risk Control 95% Put Protection Index (NTR),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045560,False,N/A,False,,US_NYSE
+US..SP10RC90P,S&P 500 10% Daily Risk Control 90% Put Protection Composite Index (NTR),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045561,False,N/A,False,,US_NYSE
+US..SP10RC95P,S&P 500 10% Daily Risk Control 95% Put Protection Composite Index (NTR),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045562,False,N/A,False,,US_NYSE
+US..SP18R90P,S&P 500 18% Daily Risk Control 90% Put Protection Index (NTR),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045563,False,N/A,False,,US_NYSE
+US..SP18R95P,S&P 500 18% Daily Risk Control 95% Put Protection Index (NTR),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045564,False,N/A,False,,US_NYSE
+US..SP18RC90P,S&P 500 18% Daily Risk Control 90% Put Protection Composite Index (NTR),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045565,False,N/A,False,,US_NYSE
+US..SP18RC95P,S&P 500 18% Daily Risk Control 95% Put Protection Composite Index (NTR),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045566,False,N/A,False,,US_NYSE
+US..SPAI,Cboe S&P 500 Dividend Aristocrat Target Income Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045567,False,N/A,False,,US_NYSE
+US..SPATI,Cboe S&P 500 Dividend Aristocrat Target Income Index Monthly Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045568,False,N/A,False,,US_NYSE
+US..SPCMI,S&P CI,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213271,False,N/A,False,,N/A
+US..SPDVXE,S&P 500 Dynamic VIX Futures ER,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045836,False,N/A,False,,US_NYSE
+US..SPDVXT,S&P 500 Dynamic VIX Futures TR,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045837,False,N/A,False,,US_NYSE
+US..SPEB01,"Cboe S&P 500 2x Up, 1:1 Down, 10% Buffer Protect Index January Series",0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045569,False,N/A,False,,US_NYSE
+US..SPEB04,"Cboe S&P 500 2x Up, 1:1 Down, 10% Buffer Protect Index April Series",0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045570,False,N/A,False,,US_NYSE
+US..SPEB07,"Cboe S&P 500 2x Up, 1:1 Down, 10% Buffer Protect Index July Series",0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045571,False,N/A,False,,US_NYSE
+US..SPEB10,"Cboe S&P 500 2x Up, 1:1 Down, 10% Buffer Protect Index October Series",0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045572,False,N/A,False,,US_NYSE
+US..SPEG01,Cboe S&P 500 Enhanced Growth Index January Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045573,False,N/A,False,,US_NYSE
+US..SPEG04,Cboe S&P 500 Enhanced Growth Index April Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045574,False,N/A,False,,US_NYSE
+US..SPEG07,Cboe S&P 500 Enhanced Growth Index July Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045575,False,N/A,False,,US_NYSE
+US..SPEG10,Cboe S&P 500 Enhanced Growth Index October Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045576,False,N/A,False,,US_NYSE
+US..SPEN,Cboe S&P 500 Enhanced Growth Balanced Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045577,False,N/A,False,,US_NYSE
+US..SPEN01,Cboe S&P 500 Enhanced Growth Index January Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045578,False,N/A,False,,US_NYSE
+US..SPEN02,Cboe S&P 500 Enhanced Growth Index February Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045579,False,N/A,False,,US_NYSE
+US..SPEN03,Cboe S&P 500 Enhanced Growth Index March Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045580,False,N/A,False,,US_NYSE
+US..SPEN04,Cboe S&P 500 Enhanced Growth Index April Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045581,False,N/A,False,,US_NYSE
+US..SPEN05,Cboe S&P 500 Enhanced Growth Index May Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045582,False,N/A,False,,US_NYSE
+US..SPEN06,Cboe S&P 500 Enhanced Growth Index June Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045583,False,N/A,False,,US_NYSE
+US..SPEN07,Cboe S&P 500 Enhanced Growth Index July Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045584,False,N/A,False,,US_NYSE
+US..SPEN08,Cboe S&P 500 Enhanced Growth Index August Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045585,False,N/A,False,,US_NYSE
+US..SPEN09,Cboe S&P 500 Enhanced Growth Index September Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045586,False,N/A,False,,US_NYSE
+US..SPEN10,Cboe S&P 500 Enhanced Growth Index October Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045587,False,N/A,False,,US_NYSE
+US..SPEN11,Cboe S&P 500 Enhanced Growth Index November Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045588,False,N/A,False,,US_NYSE
+US..SPEN12,Cboe S&P 500 Enhanced Growth Index December Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045589,False,N/A,False,,US_NYSE
+US..SPER18N3,S&P 500 18% Daily Risk Control Covered Call 103% Strike Index (NTR),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045592,False,N/A,False,,US_NYSE
+US..SPRF01,Cboe S&P 500 15% Buffer Protect Index January Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045595,False,N/A,False,,US_NYSE
+US..SPRF04,Cboe S&P 500 15% Buffer Protect Index April Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045596,False,N/A,False,,US_NYSE
+US..SPRF07,Cboe S&P 500 15% Buffer Protect Index July Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045597,False,N/A,False,,US_NYSE
+US..SPRF10,Cboe S&P 500 15% Buffer Protect Index October Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045598,False,N/A,False,,US_NYSE
+US..SPRI,Cboe S&P 500 Range Bound Premium Income Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045599,False,N/A,False,,US_NYSE
+US..SPRO,Cboe S&P 500 Buffer Protect Index Balanced Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045600,False,N/A,False,,US_NYSE
+US..SPRO01,Cboe S&P 500 Buffer Protect Index January Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045601,False,N/A,False,,US_NYSE
+US..SPRO02,Cboe S&P 500 Buffer Protect Index February Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045602,False,N/A,False,,US_NYSE
+US..SPRO03,Cboe S&P 500 Buffer Protect Index March Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045603,False,N/A,False,,US_NYSE
+US..SPRO04,Cboe S&P 500 Buffer Protect Index April Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045604,False,N/A,False,,US_NYSE
+US..SPRO05,Cboe S&P 500 Buffer Protect Index May Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045605,False,N/A,False,,US_NYSE
+US..SPRO06,Cboe S&P 500 Buffer Protect Index June Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045606,False,N/A,False,,US_NYSE
+US..SPRO07,Cboe S&P 500 Buffer Protect Index July Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045607,False,N/A,False,,US_NYSE
+US..SPRO08,Cboe S&P 500 Buffer Protect Index August Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045608,False,N/A,False,,US_NYSE
+US..SPRO09,Cboe S&P 500 Buffer Protect Index September Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045609,False,N/A,False,,US_NYSE
+US..SPRO10,Cboe S&P 500 Buffer Protect Index October Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045610,False,N/A,False,,US_NYSE
+US..SPRO11,Cboe S&P 500 Buffer Protect Index November Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045611,False,N/A,False,,US_NYSE
+US..SPRO12,Cboe S&P 500 Buffer Protect Index December Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045612,False,N/A,False,,US_NYSE
+US..SPRS01,Cboe S&P 500 30% (-5% to -35%) Buffer Protect Index January Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045613,False,N/A,False,,US_NYSE
+US..SPRS04,Cboe S&P 500 30% (-5% to -35%) Buffer Protect Index April Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045614,False,N/A,False,,US_NYSE
+US..SPRS07,Cboe S&P 500 30% (-5% to -35%) Buffer Protect Index July Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045615,False,N/A,False,,US_NYSE
+US..SPRS10,Cboe S&P 500 30% (-5% to -35%) Buffer Protect Index October Series,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045616,False,N/A,False,,US_NYSE
+US..SPVXEP,S&P 500 VIX Futures Enhanced Roll Index ER,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045838,False,N/A,False,,US_NYSE
+US..SPVXET,S&P 500 VIX Futures Enhanced Roll Index TR,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045839,False,N/A,False,,US_NYSE
+US..SPX,S&P 500 Index,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,200003,False,N/A,False,,N/A
+US..SPXR15N2,S&P 500 15% Daily Risk Control Covered Call 102% Strike Overlay Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045617,False,N/A,False,,US_NYSE
+US..SPXR18N3,S&P 500 18% Daily Risk Control Covered Call 103% Strike Overlay Index (NTR),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045618,False,N/A,False,,US_NYSE
+US..SRO,S&P 500 Range Option Underlying Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045619,False,N/A,False,,US_NYSE
+US..SRVIX,Cboe Interest Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045620,False,N/A,False,,US_NYSE
+US..SUPDN,Cboe S&P Enhance and Buffer Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045621,False,N/A,False,,US_NYSE
+US..SVRO,Cboe S&P 500 Short-Term Volatility Index Settlement Price,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045622,False,N/A,False,,US_NYSE
+US..SVRPO,Cboe S&P 500 Market-Neutral Volatility Risk Premia Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045623,False,N/A,False,,US_NYSE
+US..TWAV1,Cboe 1 st VIX Futures Mid-Morning 15 Minute Indicative TWAP Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045626,False,N/A,False,,US_NYSE
+US..TWAV2,Cboe 2nd VIX Futures Mid-Morning 15 Minute Indicative TWAP Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045627,False,N/A,False,,US_NYSE
+US..TWAV3,Cboe 3rd VIX Futures Mid-Morning 15 Minute Indicative TWAP Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045628,False,N/A,False,,US_NYSE
+US..TWBV1,Cboe 1 st VIX Futures Mid-Morning 3 Hour Indicative TWAP Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045629,False,N/A,False,,US_NYSE
+US..TWBV2,Cboe 2nd VIX Futures Mid-Morning 3 Hour Indicative TWAP Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045630,False,N/A,False,,US_NYSE
+US..TWBV3,Cboe 3rd VIX Futures Mid-Morning 3 Hour Indicative TWAP Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045631,False,N/A,False,,US_NYSE
+US..TWLV1,Cboe 1 st VIX Futures Mid-Morning Indicative TWAP Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045632,False,N/A,False,,US_NYSE
+US..TWLV2,Cboe 2 nd VIX Futures Mid-Morning Indicative TWAP Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045633,False,N/A,False,,US_NYSE
+US..TWLV3,Cboe 3 rd VIX Futures Mid-Morning Indicative TWAP Value,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045634,False,N/A,False,,US_NYSE
+US..TWLV4,Cboe 4 th VIX Futures Mid-Morning Indicative TWAP Value,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045635,False,N/A,False,,US_NYSE
+US..TWLV5,Cboe 5 th VIX Futures Mid-Morning Indicative TWAP Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045636,False,N/A,False,,US_NYSE
+US..TWLV6,Cboe 6 th VIX Futures Mid-Morning Indicative TWAP Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045637,False,N/A,False,,US_NYSE
+US..TWLV7,Cboe 7 th VIX Futures Mid-Morning Indicative TWAP Value,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045638,False,N/A,False,,US_NYSE
+US..TWLV8,Cboe 8 th VIX Futures Mid-Morning Indicative TWAP Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045639,False,N/A,False,,US_NYSE
+US..TWLV9,Cboe 9 th VIX Futures Mid-Morning Indicative TWAP Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045640,False,N/A,False,,US_NYSE
+US..TYVIX,Cboe/CBOT 10-year U.S. Treasury Note Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045641,False,N/A,False,,US_NYSE
+US..UTY,PHLX Utility Sector Index,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,79323751208284,False,N/A,False,,US_NASDAQ
+US..UZF,Cboe VIX Jan Futures 4 pm EST Mark Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045643,False,N/A,False,,US_NYSE
+US..UZG,Cboe VIX Feb Futures 4 pm EST Mark Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045644,False,N/A,False,,US_NYSE
+US..UZH,Cboe VIX Mar Futures 4 pm EST Mark Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045645,False,N/A,False,,US_NYSE
+US..UZJ,Cboe VIX Apr Futures 4 pm EST Mark Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045646,False,N/A,False,,US_NYSE
+US..UZK,Cboe VIX May Futures 4 pm EST Mark Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045647,False,N/A,False,,US_NYSE
+US..UZM,Cboe VIX Jun Futures 4 pm EST Mark Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045648,False,N/A,False,,US_NYSE
+US..UZN,Cboe VIX Jul Futures 4 pm EST Mark Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045649,False,N/A,False,,US_NYSE
+US..UZQ,Cboe VIX Aug Futures 4 pm EST Mark Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045650,False,N/A,False,,US_NYSE
+US..UZU,Cboe VIX Sep Futures 4 pm EST Mark Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045651,False,N/A,False,,US_NYSE
+US..UZV,Cboe VIX Oct Futures 4 pm EST Mark Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045652,False,N/A,False,,US_NYSE
+US..UZX,Cboe VIX Nov Futures 4 pm EST Mark Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045653,False,N/A,False,,US_NYSE
+US..UZZ,Cboe VIX Dec Futures 4 pm EST Mark Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045654,False,N/A,False,,US_NYSE
+US..VAEEM,Cboe VXEEM Ask,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045655,False,N/A,False,,US_NYSE
+US..VAF,S&P Variance Futures Settlement Price,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045656,False,N/A,False,,US_NYSE
+US..VAFH0,Cboe March 2020 S&P Variance Futures Closing Price,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045657,False,N/A,False,,US_NYSE
+US..VAFM0,Cboe Jun 2020 S&P Variance Futures Closing Price,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045659,False,N/A,False,,US_NYSE
+US..VAFZ0,Cboe Dec 2020 S&P Variance Futures Closing Price,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045662,False,N/A,False,,US_NYSE
+US..VAFZ1,Cboe Dec 2021 S&P Variance Futures Closing Price,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045663,False,N/A,False,,US_NYSE
+US..VBEEM,Cboe VXEEM Bid,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045665,False,N/A,False,,US_NYSE
+US..VIF,Far Term S&P 500 Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045666,False,N/A,False,,N/A
+US..VIFMO,The Cboe Far-Term VIXMO Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045667,False,N/A,False,,US_NYSE
+US..VIN,Near Term S&P 500 Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045668,False,N/A,False,,N/A
+US..VINMO,Cboe Near-Term VIXMO Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045669,False,N/A,False,,US_NYSE
+US..VINXE,Cboe SPX Near Term Expiry VIX Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045670,False,N/A,False,,US_NYSE
+US..VIX,CBOE Volatility S&P 500 Index,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045671,False,N/A,False,,N/A
+US..VIX01W,Cboe VIX 01 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045672,False,N/A,False,,US_NYSE
+US..VIX02W,Cboe VIX 02 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045673,False,N/A,False,,US_NYSE
+US..VIX04W,Cboe VIX 04 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045674,False,N/A,False,,US_NYSE
+US..VIX05W,Cboe VIX 05 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045675,False,N/A,False,,US_NYSE
+US..VIX06W,Cboe VIX 06 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045676,False,N/A,False,,US_NYSE
+US..VIX08W,Cboe VIX 08 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045677,False,N/A,False,,US_NYSE
+US..VIX09W,Cboe VIX 09 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045678,False,N/A,False,,US_NYSE
+US..VIX10W,Cboe VIX 10 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045679,False,N/A,False,,US_NYSE
+US..VIX11W,Cboe VIX 11 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045680,False,N/A,False,,US_NYSE
+US..VIX12W,Cboe VIX 12 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045681,False,N/A,False,,US_NYSE
+US..VIX13W,Cboe VIX 13 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045682,False,N/A,False,,US_NYSE
+US..VIX14W,Cboe VIX 14 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045683,False,N/A,False,,US_NYSE
+US..VIX15W,Cboe VIX 15 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045684,False,N/A,False,,US_NYSE
+US..VIX17W,Cboe VIX 17 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045685,False,N/A,False,,US_NYSE
+US..VIX18W,Cboe VIX 18 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045686,False,N/A,False,,US_NYSE
+US..VIX19W,Cboe VIX 19 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045687,False,N/A,False,,US_NYSE
+US..VIX1D,Cboe 1-Day Volatility Index,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,83665963155235,False,N/A,False,,N/A
+US..VIX1Y,Cboe S&P 500 One-Year Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045688,False,N/A,False,,US_NYSE
+US..VIX21W,Cboe VIX 21 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045689,False,N/A,False,,US_NYSE
+US..VIX22W,Cboe VIX 22 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045690,False,N/A,False,,US_NYSE
+US..VIX23W,Cboe VIX 23 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045691,False,N/A,False,,US_NYSE
+US..VIX24W,Cboe VIX 24 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045692,False,N/A,False,,US_NYSE
+US..VIX25W,Cboe VIX 25 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045693,False,N/A,False,,US_NYSE
+US..VIX26W,Cboe VIX 26 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045694,False,N/A,False,,US_NYSE
+US..VIX27W,Cboe VIX 27 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045695,False,N/A,False,,US_NYSE
+US..VIX28W,Cboe VIX 28 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045696,False,N/A,False,,US_NYSE
+US..VIX30W,Cboe VIX 30 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045697,False,N/A,False,,US_NYSE
+US..VIX31W,Cboe VIX 31 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045698,False,N/A,False,,US_NYSE
+US..VIX32W,Cboe VIX 32 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045699,False,N/A,False,,US_NYSE
+US..VIX33W,Cboe VIX 33 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045700,False,N/A,False,,US_NYSE
+US..VIX34W,Cboe VIX 34 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045701,False,N/A,False,,US_NYSE
+US..VIX35W,Cboe VIX 35 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045702,False,N/A,False,,US_NYSE
+US..VIX36W,Cboe VIX 36 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045703,False,N/A,False,,US_NYSE
+US..VIX37W,Cboe VIX 37 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045704,False,N/A,False,,US_NYSE
+US..VIX39W,Cboe VIX 39 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045705,False,N/A,False,,US_NYSE
+US..VIX3M,Cboe S&P 500 3 Month Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045706,False,N/A,False,,US_NYSE
+US..VIX40W,Cboe VIX 40 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045707,False,N/A,False,,US_NYSE
+US..VIX41W,Cboe VIX 41 Weekly Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045708,False,N/A,False,,US_NYSE
+US..VIX6M,Cboe S&P 500 6-Month Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045718,False,N/A,False,,US_NYSE
+US..VIX9D,Cboe S&P 5009-Day Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045719,False,N/A,False,,US_NYSE
+US..VIXAPR,Cboe VIX Apr Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045720,False,N/A,False,,US_NYSE
+US..VIXAUG,Cboe VIX August Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045721,False,N/A,False,,US_NYSE
+US..VIXFEB,Cboe VIX Feb Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045723,False,N/A,False,,US_NYSE
+US..VIXJAN,Cboe VIX January Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045724,False,N/A,False,,US_NYSE
+US..VIXJUL,Cboe VIX July Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045725,False,N/A,False,,US_NYSE
+US..VIXJUN,Cboe VIX JUN Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045726,False,N/A,False,,US_NYSE
+US..VIXMAR,Cboe VIX Mar Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045727,False,N/A,False,,US_NYSE
+US..VIXMAY,Cboe VIX May Futures Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045728,False,N/A,False,,US_NYSE
+US..VIXMO,Cboe Standard Monthly Only Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045729,False,N/A,False,,US_NYSE
+US..VPD,Cboe VIX Premium Strategy Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045733,False,N/A,False,,US_NYSE
+US..VPN,Cboe Capped VIX Premium Strategy Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045734,False,N/A,False,,US_NYSE
+US..VRO,VIX Options Settlement Value,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045735,False,N/A,False,,US_NYSE
+US..VSTF,Cboe SPX Far-Term VXST Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045736,False,N/A,False,,US_NYSE
+US..VSTG,The Cboe VIX Strangle Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045737,False,N/A,False,,US_NYSE
+US..VSTN,Cboe SPX Near-Term VXST Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045738,False,N/A,False,,US_NYSE
+US..VVIX,VVIX Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045740,False,N/A,False,,US_NYSE
+US..VW1VX,Cboe Near-Term VIX Future Contract 2 Minute VWAP,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045741,False,N/A,False,,US_CBOE
+US..VW2VX,Cboe Second-Term VIX Future Contract 2 Minute VWAP,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045742,False,N/A,False,,US_CBOE
+US..VW3VX,Cboe Third-Term VIX Future Contract 2 Minute VWAP,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045743,False,N/A,False,,US_CBOE
+US..VWA,Cboe Market Volatility SPX Offer Price,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045744,False,N/A,False,,N/A
+US..VWB,Cboe Market Volatility SPX Bid Price,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045745,False,N/A,False,,N/A
+US..VX1YA,Cboe VIX1Y Indicative Ask,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045746,False,N/A,False,,US_NYSE
+US..VX1YB,Cboe VIX1Y Indicative Bid,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045747,False,N/A,False,,US_NYSE
+US..VX1YF,Cboe Far-Term VIX1Y,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045748,False,N/A,False,,US_NYSE
+US..VX1YN,Cboe Near-Term VIX1Y,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045749,False,N/A,False,,US_NYSE
+US..VX3MA,Cboe VIX3M Indicative Ask,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045750,False,N/A,False,,US_NYSE
+US..VX3MB,Cboe VIX3M Indicative Bid,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045751,False,N/A,False,,US_NYSE
+US..VX3MF,Cboe Far-Term VIX3M,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045752,False,N/A,False,,US_NYSE
+US..VX3MN,Cboe Near-Term VIX3M,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045753,False,N/A,False,,US_NYSE
+US..VXB,Jumbo Cboe Volatility,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045756,False,N/A,False,,US_NYSE
+US..VXD,DJIA Volatility,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045757,False,N/A,False,,US_NYSE
+US..VXDEC,Cboe S&P 500 December Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045758,False,N/A,False,,US_NYSE
+US..VXFWA,VOL Index First Implied Voltality,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045762,False,N/A,False,,US_NYSE
+US..VXFWB,VOL Index Second Forward Implied Voltality,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045763,False,N/A,False,,US_NYSE
+US..VXFXI,Cboe China ETF Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045764,False,N/A,False,,US_NYSE
+US..VXGDX,Cboe Gold Miners ETF Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045765,False,N/A,False,,US_NYSE
+US..VXHYG,Cboe High Yield Corporate Bond ETF Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045768,False,N/A,False,,US_NYSE
+US..VXIEF,Cboe 7-10 Year Treasury Bond ETF Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045770,False,N/A,False,,US_NYSE
+US..VXJUN,Cboe S&P 500 June Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045771,False,N/A,False,,US_NYSE
+US..VXMAR,Cboe S&P 500 March Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045772,False,N/A,False,,US_NYSE
+US..VXO,Cboe OEX Implied Volatility,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045774,False,N/A,False,,US_NYSE
+US..VXS,Cboe Volatility Index Options Settlement Price,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045775,False,N/A,False,,US_NYSE
+US..VXSEP,Cboe S&P 500 September Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045776,False,N/A,False,,US_NYSE
+US..VXSLV,Cboe Silver ETF Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045777,False,N/A,False,,US_NYSE
+US..VXTA1,Cboe 1st VIX Futures TAS Ask Price Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045778,False,N/A,False,,US_NYSE
+US..VXTA2,Cboe 2nd VIX Futures TAS Ask Price Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045779,False,N/A,False,,US_NYSE
+US..VXTA3,Cboe 3rd VIX Futures TAS Ask Price Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045780,False,N/A,False,,US_NYSE
+US..VXTB1,Cboe 1st VIX Futures TAS Bid Price Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045781,False,N/A,False,,US_NYSE
+US..VXTB2,Cboe 2nd VIX Futures TAS Bid Price Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045782,False,N/A,False,,US_NYSE
+US..VXTB3,Cboe 3rd VIX Futures TAS Bid Price Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045783,False,N/A,False,,US_NYSE
+US..VXTH,Cboe VIX Tail Hedge Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045784,False,N/A,False,,US_NYSE
+US..VXTYS,Cboe/CBOT 10-year U.S. Treasury Note Volatility Index Settlement Price,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045786,False,N/A,False,,US_NYSE
+US..VXW3,Cboe SPX Week 3 Strip Expiration VIX Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045787,False,N/A,False,,US_NYSE
+US..VXW4,Cboe SPX Week 4 Strip Expiration VIX Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045788,False,N/A,False,,US_NYSE
+US..VXW5,Cboe SPX Week 5 Strip Expiration VIX Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045789,False,N/A,False,,US_NYSE
+US..VXW6,Cboe SPX Week 6 Strip Expiration VIX Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045790,False,N/A,False,,US_NYSE
+US..VXXLE,Cboe Energy Sector ETF Volatility Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045791,False,N/A,False,,US_NYSE
+US..W5000FLT,Wilshire 5000 Total Market Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213273,False,N/A,False,,N/A
+US..W5KLC,Wilshire US Large Cap Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213274,False,N/A,False,,N/A
+US..W5KMC,Wilshire US Mid Cap Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213275,False,N/A,False,,N/A
+US..W5KMICRO,Wilshire US Micro Cap Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213277,False,N/A,False,,N/A
+US..W5KSC,Wilshire US Small Cap Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,213276,False,N/A,False,,N/A
+US..WPUT,Cboe S&P 500 One-Week PutWrite Index,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045792,False,N/A,False,,US_NYSE
+US..XAU,Philadelphia Gold and Silver Index,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,79323751208281,False,N/A,False,,US_NASDAQ
+US..XEO,Standard & Poor's 100(European),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045840,False,N/A,False,,US_NYSE
+US..XND,Nasdaq-100 Micro Index Options,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,86062554922962,False,N/A,False,,N/A
+US..XNDC,NASDAQ 100 Micro Index Settlement Value,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,86062554922963,False,N/A,False,,US_NYSE
+US..XQC,NASDAQ 100 PM Settlement Value,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,84073985050920,False,N/A,False,,US_NYSE
+US..XQO,NASDAQ 100 Settlement Value,1,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,84073985050919,False,N/A,False,,US_NYSE
+US..XSM,S&P 600 Settlement Reduced,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045793,False,N/A,False,,US_NYSE
+US..XSP,Mini Standard & Poor's 500,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045841,False,N/A,False,,US_NYSE
+US..XSPAM,Mini SPX Index (AM Settlement),0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045842,False,N/A,False,,US_NYSE
+US..XSR,S&P 500 Settlement Reduced,0,IDX,N/A,,N/A,,N/A,N/A,1970-01-01,77768973045794,False,N/A,False,,US_NYSE
