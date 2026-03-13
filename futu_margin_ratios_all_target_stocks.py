@@ -5,8 +5,8 @@ import math
 
 # --- Configuration ---
 INPUT_FILE = 'self_use.xlsx'
-SHEET_NAME = 'futu_margin_ratios_all_target'
-OUTPUT_FILE = 'futu_margin_ratios_all_target.csv'
+SHEET_NAME = 'futu_margin_ratios_all_true_fix'
+OUTPUT_FILE = 'futu_margin_ratios_all_target_true.csv'
 ERROR_FILE = 'futu_invalid_tickers.txt'
 
 # Futu OpenD Config
@@ -17,17 +17,18 @@ PORT = 11111
 # Limit: 10 requests per 30 seconds.
 # Safe setting: 1 request every 3.2 seconds.
 REQUEST_DELAY = 3.2 
-BATCH_SIZE = 100
+BATCH_SIZE = 1
 
 def fetch_futu_margin_data():
     print("--- Starting Futu Margin Fetch ---")
     
     # 1. Read the stock list from Excel
     try:
-        df_input = pd.read_excel(INPUT_FILE, sheet_name=SHEET_NAME, usecols="C")
+        df_input = pd.read_excel(INPUT_FILE, sheet_name=SHEET_NAME, usecols="A")
         # Clean list: remove whitespace and drop empty values
         stock_list = df_input.iloc[:, 0].astype(str).str.strip()
         stock_list = stock_list[stock_list != 'nan'].tolist() # Filter out empty rows
+        print(stock_list[:5]) # Print first 5 items for debugging
         
         print(f"Loaded {len(stock_list)} stocks from {INPUT_FILE}")
         

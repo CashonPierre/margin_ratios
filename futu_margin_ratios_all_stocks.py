@@ -2,11 +2,13 @@ from futu import *
 import pandas as pd
 import time
 import math
+from datetime import datetime
 
 # --- Configuration ---
-INPUT_FILE = 'self_use.xlsx'
-SHEET_NAME = 'futu_us_stock_basic_info'
-OUTPUT_FILE = 'futu_margin_ratios_all.csv'
+today_date = datetime.now().strftime('%Y%m%d')
+INPUT_FILE = f'futu_us_stock_basic_info_{today_date}.csv'
+OUTPUT_FILE = f'futu_margin_ratios_all_{today_date}.csv'
+
 
 # Futu OpenD Config
 HOST = '127.0.0.1'
@@ -21,20 +23,18 @@ BATCH_SIZE = 100
 def fetch_futu_margin_data():
     print("--- Starting Futu Margin Fetch ---")
     
-    # 1. Read the stock list from Excel
+    # 1. Read the stock list from CSV
     try:
-        # Reads column A. Assuming row 1 is header, data starts A2.
-        # header=0 means the first row is the header.
-        df_input = pd.read_excel(INPUT_FILE, sheet_name=SHEET_NAME, usecols="A")
-        
-        # Convert column to a clean list of strings
-        # Assuming the column name is known or taking the first column found
-        stock_list = df_input.iloc[:, 0].astype(str).str.strip().tolist()
-        
+        df_input = pd.read_csv(INPUT_FILE)
+        stock_list = df_input['code'].astype(str).str.strip().tolist()
         print(f"Loaded {len(stock_list)} stocks from {INPUT_FILE}")
-        
+
+    except FileNotFoundError:
+        print(f"Error: Input file not found at '{INPUT_FILE}'")
+        print("Please run the 'futu_get_all_stock.py' script first to generate it.")
+        return
     except Exception as e:
-        print(f"Error reading Excel file: {e}")
+        print(f"Error reading CSV file: {e}")
         return
 
     # 2. Initialize Futu Context
