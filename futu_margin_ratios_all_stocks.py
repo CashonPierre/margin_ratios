@@ -4,10 +4,11 @@ import time
 import math
 from datetime import datetime
 
+target = SecurityType.ETF  # Change this to SecurityType.ETF, SecurityType.IDX, etc. for different types of securities
 # --- Configuration ---
 today_date = datetime.now().strftime('%Y%m%d')
-INPUT_FILE = f'futu_us_stock_basic_info_{today_date}.csv'
-OUTPUT_FILE = f'futu_margin_ratios_all_{today_date}.csv'
+INPUT_FILE = f'futu_us_{target}_basic_info_{today_date}.csv'
+OUTPUT_FILE = f'futu_margin_ratios_{target}_{today_date}.csv'
 
 
 # Futu OpenD Config

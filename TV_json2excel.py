@@ -1,5 +1,6 @@
 import json
 import pandas as pd
+import datetime
 
 def json_to_excel(input_file, output_file):
     try:
@@ -62,4 +63,4 @@ def json_to_excel(input_file, output_file):
 # --- Execution ---
 if __name__ == "__main__":
     # Ensure your json file is named 'trading_view.json'
-    json_to_excel('trading_view_3.json', 'trading_view_output3.xlsx')
+    json_to_excel('tradingview_etf_data.json', f'trading_view_output_{datetime.datetime.now().strftime("%Y-%m-%d")}.xlsx')
