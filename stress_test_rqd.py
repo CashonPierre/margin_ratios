@@ -99,27 +99,30 @@ def run_full_stress_test(csv_path):
 
     print("Stressing sub-portfolios...")
     account_results = []
+    check_details = []
     loss_cols = [c for c in df_main.columns if '_Loss_Val' in c]
     macro_loss_cols = [c for c in loss_cols if 'S' in c and '10d' not in c]
 
     for account_id, group in df_main.groupby(acc_col):
-        # Check 1: Macro Risk (Max of scenario sums - Strict: No Offset) [cite: 27]
-        m_losses = [group[col].sum() for col in macro_loss_cols]
+        # Check 1: Macro Risk (Max of scenario sums - Strict: No Offset)
+        macro_scenario_sums = {col: group[col].sum() for col in macro_loss_cols}
+        m_losses = list(macro_scenario_sums.values())
         macro_risk = max(m_losses) if m_losses else 0
+        worst_macro_col = max(macro_scenario_sums, key=macro_scenario_sums.get) if macro_scenario_sums else "N/A"
 
-        # Check 2: Concentration 1 (Top 5 holdings at -35%) [cite: 31, 32]
-        conc_35 = group['Conc_35pct_Loss_Val'].nlargest(5).sum()
+        # Check 2: Concentration 1 (Top 5 holdings at -35%)
+        top5_35 = group.nlargest(5, 'Conc_35pct_Loss_Val')[['clean_ticker', 'Conc_35pct_Loss_Val']]
+        conc_35 = top5_35['Conc_35pct_Loss_Val'].sum()
 
-        # Check 3: Concentration 2 (Top 3 holdings at -3STD 10-day) [cite: 33, 34]
-        conc_10d = group['S3_10d_Loss_Val'].nlargest(3).sum()
+        # Check 3: Concentration 2 (Top 3 holdings at -3STD 10-day)
+        top3_10d = group.nlargest(3, 'S3_10d_Loss_Val')[['clean_ticker', 'S3_10d_Loss_Val']]
+        conc_10d = top3_10d['S3_10d_Loss_Val'].sum()
 
-        # Check 4: CVaR (Total portfolio expected shortfall) [cite: 35, 36]
+        # Check 4: CVaR (Total portfolio expected shortfall)
         cvar_total = group['CVaR_99_Loss_Val'].sum()
 
-        # House Margin = Max of the four core checks [cite: 24, 25]
+        # House Margin = Max of the four core checks
         house_margin = max(macro_risk, conc_35, conc_10d, cvar_total)
-        
-        # Determine dominant check
         names = ["Macro", "Conc_35%", "Conc_10d", "CVaR"]
         vals = [macro_risk, conc_35, conc_10d, cvar_total]
         dominant = names[np.argmax(vals)]
@@ -135,6 +138,41 @@ def run_full_stress_test(csv_path):
             "Conc_10d_Val": conc_10d,
             "CVaR_Val": cvar_total
         })
+
+        # --- Build step-by-step detail row for this account ---
+        detail = {"證券賬戶": account_id, "Total_Market_Value": group[mv_col].sum()}
+
+        # Check 1: each macro scenario sum + which was worst
+        for col, val in macro_scenario_sums.items():
+            detail[f"C1_{col.replace('_Loss_Val', '')}"] = val
+        detail["C1_Worst_Scenario"] = worst_macro_col.replace("_Loss_Val", "")
+        detail["C1_Macro_Risk"] = macro_risk
+
+        # Check 2: top-5 individual holdings
+        for rank, (_, pos_row) in enumerate(top5_35.iterrows(), start=1):
+            detail[f"C2_Top{rank}_Ticker"] = pos_row['clean_ticker']
+            detail[f"C2_Top{rank}_Loss"]   = pos_row['Conc_35pct_Loss_Val']
+        detail["C2_Conc35_Total"] = conc_35
+
+        # Check 3: top-3 individual holdings
+        for rank, (_, pos_row) in enumerate(top3_10d.iterrows(), start=1):
+            detail[f"C3_Top{rank}_Ticker"] = pos_row['clean_ticker']
+            detail[f"C3_Top{rank}_Loss"]   = pos_row['S3_10d_Loss_Val']
+        detail["C3_Conc10d_Total"] = conc_10d
+
+        # Check 4: CVaR
+        detail["C4_CVaR_Total"] = cvar_total
+
+        # Final
+        detail["House_Margin_Requirement"] = house_margin
+        detail["Dominant_Risk_Check"]      = dominant
+
+        check_details.append(detail)
+
+    # Export intermediate core-risk-check breakdown
+    df_check_details = pd.DataFrame(check_details)
+    df_check_details.to_csv('Core_Risk_Checks_Detail.csv', index=False)
+    print("[EXPORT] Core_Risk_Checks_Detail.csv saved.")
 
     return pd.DataFrame(account_results)
 
