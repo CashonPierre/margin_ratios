@@ -5,6 +5,13 @@ from datetime import datetime, timedelta
 import warnings
 import traceback
 
+try:
+    import openpyxl
+except ImportError:
+    print("Warning: 'openpyxl' library not found. Please install it using 'pip install openpyxl' to use the Excel export functionality.")
+    openpyxl = None
+
+
 # Suppress pandas 3.0+ FutureWarnings regarding pct_change
 warnings.filterwarnings('ignore', category=FutureWarning)
 
@@ -23,6 +30,7 @@ def calculate_cvar(series):
     return clean_series[clean_series <= threshold].mean()
 
 def run_full_stress_test(csv_path):
+    _date = datetime.now().strftime('%Y%m%d')
     # --- 1. Load and Clean Portfolio Data ---
     print(f"Loading {csv_path}...")
     df_portfolio = pd.read_csv(csv_path)
@@ -76,8 +84,8 @@ def run_full_stress_test(csv_path):
     risk_params['CVaR_99_pct'] = data.pct_change(fill_method=None).loc[two_year_ago:].apply(calculate_cvar)
     
     # Export intermediate Risk Parameters
-    risk_params.to_csv('Risk_Parameters_Master.csv')
-    print("[EXPORT] Risk_Parameters_Master.csv saved.")
+    risk_params.to_csv(f'Risk_Parameters_Master_{_date}.csv')
+    print(f"[EXPORT] Risk_Parameters_Master_{_date}.csv saved.")
 
     # --- 4. Position-Level & Grouped Analysis ---
     # Merge risk metrics back to the original portfolio
@@ -94,8 +102,8 @@ def run_full_stress_test(csv_path):
     df_main['Conc_35pct_Loss_Val'] = abs(df_main[mv_col] * -0.35)
 
     # Export intermediate Position-level details
-    df_main.to_csv('Position_Stress_Details.csv', index=False)
-    print("[EXPORT] Position_Stress_Details.csv saved.")
+    df_main.to_csv(f'Position_Stress_Details_{_date}.csv', index=False)
+    print(f"[EXPORT] Position_Stress_Details_{_date}.csv saved.")
 
     print("Stressing sub-portfolios...")
     account_results = []
@@ -171,26 +179,38 @@ def run_full_stress_test(csv_path):
 
     # Export intermediate core-risk-check breakdown
     df_check_details = pd.DataFrame(check_details)
-    df_check_details.to_csv('Core_Risk_Checks_Detail.csv', index=False)
-    print("[EXPORT] Core_Risk_Checks_Detail.csv saved.")
+    df_check_details.to_csv(f'Core_Risk_Checks_Detail_{_date}.csv', index=False)
+    print(f"[EXPORT] Core_Risk_Checks_Detail_{_date}.csv saved.")
 
-    return pd.DataFrame(account_results)
+    final_report = pd.DataFrame(account_results)
+
+    return final_report, risk_params, df_main, df_check_details
 
 # --- Main Entry Point ---
 if __name__ == "__main__":
     FILENAME = 'Client_Position_Details_0327.csv'
     try:
-        final_report = run_full_stress_test(FILENAME)
-        
+        final_report, risk_params, df_main, df_check_details = run_full_stress_test(FILENAME)
+        _date = datetime.now().strftime('%Y%m%d')
+
         print("\n" + "="*80)
         print(f"{'ACCOUNT STRESS TEST SUMMARY':^80}")
         print("="*80)
         pd.options.display.float_format = '{:,.2f}'.format
         print(final_report[['證券賬戶', 'Total_Market_Value', 'House_Margin_Requirement', 'Margin_Ratio_%', 'Dominant_Risk_Check']].to_string(index=False))
         
-        output_name = f"Stress_Test_Result_{datetime.now().strftime('%Y%m%d')}.csv"
+        output_name = f"Stress_Test_Result_{_date}.csv"
         final_report.to_csv(output_name, index=False)
         print(f"\n[SUCCESS] Final account report saved as: {output_name}")
+
+        if openpyxl:
+            excel_output_name = f"Stress_Test_Combined_{_date}.xlsx"
+            with pd.ExcelWriter(excel_output_name, engine='openpyxl') as writer:
+                final_report.to_excel(writer, sheet_name='Stress_Test_Result', index=False)
+                risk_params.to_excel(writer, sheet_name='Risk_Parameters_Master')
+                df_main.to_excel(writer, sheet_name='Position_Stress_Details', index=False)
+                df_check_details.to_excel(writer, sheet_name='Core_Risk_Checks_Detail', index=False)
+            print(f"\n[SUCCESS] Combined Excel report saved as: {excel_output_name}")
 
     except Exception as e:
         print(f"\n[ERROR] Process failed: {e}")
